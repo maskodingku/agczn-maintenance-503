@@ -10,7 +10,7 @@ Panduan ini hanya dikhususkan untuk pengguna script agczn!
 # Penjelasan
 Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.com/search/docs/crawling-indexing/pause-online-business#best-practices-disabling-site). Google menyarankan, saat website dalam keadaan maintenance harus mematuhi beberapa hal berikut :
 - Jangan larang semua perayapan di file robots.txt. Artinya file robots.txt harus tetap dapat di akses dan code response yang dikembalikan harus 200.
-- Halaman Home harus dapat di akses dan code response harus 200 [Lihat Disini](https://developers.google.com/search/docs/crawling-indexing/pause-online-business#best-practices-disabling-site:~:text=Jika%20Anda%20perlu%20menonaktifkan%20situs%20untuk%20waktu%20yang%20lebih%20lama%2C%20sediakan%20laman%20beranda%20yang%20dapat%20diindeks).
+- Halaman Home harus dapat di akses dan code response harus 200 [Lihat Disini](https://developers.google.com/search/docs/crawling-indexing/pause-online-business#best-practices-disabling-site:~:text=If%20you%20need%20to%20disable%20the%20site%20for%20a%20longer%20time%2C%20then%20provide%20an%20indexable%20home%20page%20as%20a%20placeholder%20for%20users%20to%20find%20in%20Search%20by%20using%20the%20200%20HTTP%20status%20code.).
 
 # Panduan Pemakaian
 
