@@ -13,7 +13,8 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
 # Panduan Pemakaian
 
 `
-app.use(async (req,res,next)=>{
+
+	app.use(async (req,res,next)=>{
 		await res.writeHead(503,{
 			"content-type":"text/html",
 			"Retry-After" : 3600
@@ -21,4 +22,6 @@ app.use(async (req,res,next)=>{
 		await res.write("<h1>503 (Service Unavailable)</h1><p>Site is under maintenance.<p>");
 		return res.end();
 	});
- `
+
+
+`
