@@ -16,6 +16,7 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
 
 ![Image](maintenance-agczn-01.png)
 
+- Tepat di bawah baris code tersebut, silahkan pastekan code di bawah ini.
 
 `
 
