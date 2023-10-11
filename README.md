@@ -36,4 +36,8 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
   ![Image](maintenance-agczn-02.png)
 
 - Setelah itu, jangan lupa save code yang telah kamu tambahkan barusan.
-- Selanjtnya silakan kamu restart pm2. `pm2 restart app-agczn`
+- Selanjutnya silakan kamu restart pm2. `pm2 restart app-agczn`
+
+# Tambahan
+- Silahkan backup terlebih dahulu file `app-agczn.js` sebelum mengeditnya.
+- Untuk menonaktifkan mode maintenance, silahkan hapus code yang sebelumnya kamu tambahkan lalu restart pm2 nya.
