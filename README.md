@@ -34,3 +34,6 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
 - Hasilnya harus seperti gambar berikut :
   
   ![Image](maintenance-agczn-02.png)
+
+- Setelah itu, jangan lupa save code yang telah kamu tambahkan barusan.
+- Selanjtnya silakan kamu restart pm2. `pm2 restart app-agczn`
