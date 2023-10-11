@@ -12,6 +12,8 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
 
 # Panduan Pemakaian
 
+- Silahkan buka file `app-agczn.js`. Lalu perhatikan code pada baris 39. Lihat gambar berikut :
+
 `
 
 	app.use(async (req,res,next)=>{
