@@ -3,7 +3,7 @@ Membuat website agcnz ke dalam mode maintenance. Ini berfungsi agar content yang
 Mengembalikan response code headers 503 hasil HTTP (Layanan Tidak Tersedia) yang memberi tahu crawler mesin pencari bahwa waktu henti tersebut bersifat sementara. Selain itu, ini memungkinkan pemilik situs untuk memberikan perkiraan waktu kepada pengunjung dan bot kapan situs akan aktif dan berjalan kembali.
 
 # Catatan Penting
-Panduan ini hanya dikhususkan untuk pengguna script agczn!.
+Panduan ini hanya dikhususkan untuk pengguna script agczn!
 
 # Penjelasan
 Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.com/search/docs/crawling-indexing/pause-online-business#best-practices-disabling-site). Google menyarankan, saat website dalam keadaan maintenance harus mematuhi beberapa hal berikut :
