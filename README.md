@@ -13,8 +13,8 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
 # Panduan Pemakaian
 
 - Silahkan buka file `app-agczn.js`. Lalu perhatikan code pada baris 39. Lihat gambar berikut :
-
-![Image](maintenance-agczn-01.png)
+  
+  ![Image](maintenance-agczn-01.png)
 
 - Tepat di bawah baris code tersebut, silahkan pastekan code di bawah ini.
 
@@ -32,4 +32,5 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
 
 `
 - Hasilnya harus seperti gambar berikut :
+  
   ![Image](maintenance-agczn-02.png)
