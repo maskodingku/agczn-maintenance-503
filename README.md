@@ -11,3 +11,17 @@ Dalam penjelasan pada artikel resminya [Lihat Disini](https://developers.google.
 - Halaman Home harus dapat di akses dan code response harus 200 [Lihat Disini](https://developers.google.com/search/docs/crawling-indexing/pause-online-business#best-practices-disabling-site:~:text=Jika%20Anda%20perlu%20menonaktifkan%20situs%20untuk%20waktu%20yang%20lebih%20lama%2C%20sediakan%20laman%20beranda%20yang%20dapat%20diindeks).
 
 # Panduan Pemakaian
+
+`
+
+	app.use(async (req,res,next)=>{
+		await res.writeHead(503,{
+			"content-type":"text/html",
+			"Retry-After" : 3600
+		});
+		await res.write("<h1>503 (Service Unavailable)</h1><p>Site is under maintenance.<p>");
+		return res.end();
+	});
+
+
+`
